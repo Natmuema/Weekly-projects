@@ -28,8 +28,8 @@ function List (props) {
     
 
     return(<> 
-    <h3 className="list-category">{category}</h3> 
-    <ul className="list-items">{listItems}</ul>
+    <h3 className="mb-2 text-lg font-semibold text-gray-900 dark:text-black">{category}</h3> 
+    <ul className="max-w-md space-y-1 text-blue-500 list-disc list-inside dark:text-blue-400">{listItems}</ul>
     </>
     );
 

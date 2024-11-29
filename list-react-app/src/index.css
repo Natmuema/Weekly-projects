@@ -1,21 +1,4 @@
-.list-category {
-  font-size: 2.5em;
-  font-weight: bold;
-  color:black;
-  margin-bottom: 10px;
-  text-align: center;
-  border: 3px;
-  border-radius: 5px;
-  background-color: rgb(234, 195, 214);
-}
-.list-items li {
-  font-size: 2em;
-  list-style: none;
-  color: hsl(0, 0%, 25%);
-  text-align: center;
-  margin: 0;
-}
-.list-items li:hover {
-  color: rgb(54, 208, 243);
-  cursor: pointer;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
